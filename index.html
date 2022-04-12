@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+     
+</head>
+        
+<body>
+  <header>
+    <div class="logo">
+        <a href="#"><img src="./imagens/pa-logo.png" alt="logo" width="200px"></a>
+    </div>
+  </header>
+  <main>  
+  <div class='container'>
+    <div class='card'>
+      <h1> login </h1>
+            
+      <div id='msgError'></div>
+            
+      <div class='label-float'>
+        <input type='text' id='usuario' paceholder='' required>
+        <label id='userLabel' for='usuario'>Usuario</label>
+      </div>
+            
+      <div class='label-float'>
+        <input type='password' id='senha' paceholder='' required>
+        <label id='senhaLabel' for='senha'>Senha</label>
+        <i class="fa fa-eye" aria-hidden="true"></i>
+      </div>
+            
+      <div class='justify-center'>
+        <button onclick='entrar()'>Entrar</button>
+      </div>
+            
+      <div class='justify-center'>
+      </div>
+
+      <div class="social-google">
+        <a href="https://www.google.com/" target="_blank">
+          <i class="fa fa-google"></i>
+          Sign in with Google
+        </a>
+      </div>
+            
+      <p> Não tem uma conta?
+        <a href='cadastrar.html'> Cadastre-se </a>
+      </p>
+            
+    </div>
+  </div>
+  </main>  
+  <script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
